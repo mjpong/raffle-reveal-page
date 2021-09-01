@@ -41,6 +41,11 @@ export default function RaffleDraw() {
                             <h1>Congratulations!</h1>
                             <p>You've just won the Spinning Bitcoin from the Raffle!</p>
                         </div>
+                        <div className="winner"
+                            style={{ display: results === true ? "none" : "block" }}>
+                            <img src={require("../images/drawone.png").default} height="400" width="300" alt="logo" />
+                            <p>Use the button below to draw your tickets!</p>
+                        </div>
                     </div>
 
                 </div>
