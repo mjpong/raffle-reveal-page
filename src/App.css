@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+#root {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+/* Mobile Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 767px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    
+  }
